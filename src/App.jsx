@@ -5,7 +5,12 @@ import "./App.css";
 function App() {
     return (
         <>
-            <div className="flex items-center justify-center h-screen bg-pageBg">
+            <div className="flex flex-col items-center justify-center h-screen bg-pageBg">
+                <div>
+                    <h1 className="text-2xl text-headingColor mb-8">
+                        Password Generator
+                    </h1>
+                </div>
                 <Password />
             </div>
         </>
