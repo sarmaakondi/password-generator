@@ -15,12 +15,12 @@ export default {
         colors: {
             pageBg: "#18171F",
             componentBg: "#24232C",
-            headingColor: "817D92",
+            headingColor: "#817D92",
             textColor: "#E6E5EA",
             customGreen: "#A4FFAF",
-            customRed: "F64A4A",
-            customAmber: "FB7C58",
-            customYellow: "F8CD65",
+            customRed: "#F64A4A",
+            customAmber: "#FB7C58",
+            customYellow: "#F8CD65",
         },
     },
 };
