@@ -4,7 +4,7 @@ function App() {
     return (
         <>
             <div>
-                <h1>Password Generator</h1>
+                <h1 className="text-2xl">Password Generator</h1>
             </div>
         </>
     );

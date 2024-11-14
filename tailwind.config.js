@@ -6,4 +6,9 @@ export default {
         "./src/styles/globals.css",
     ],
     plugins: [],
+    theme: {
+        extend: {
+            fontFamily: ["JetBrains Mono", "sans-serif"],
+        },
+    },
 };
