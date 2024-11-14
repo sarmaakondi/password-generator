@@ -1,4 +1,5 @@
 import Password from "./Password";
+import Config from "./Config";
 
 import "./App.css";
 
@@ -12,6 +13,7 @@ function App() {
                     </h1>
                 </div>
                 <Password />
+                <Config />
             </div>
         </>
     );

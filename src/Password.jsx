@@ -1,6 +1,6 @@
 const Password = () => {
     return (
-        <div className="w-96 flex items-center justify-between bg-componentBg px-8 py-4">
+        <div className="w-96 flex items-center justify-between bg-componentBg px-8 py-4 mb-6">
             <h1 className="text-textColor text-2xl">Password </h1>
             <svg
                 className="fill-customGreen hover:fill-textColor cursor-pointer"
