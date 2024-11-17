@@ -1,6 +1,7 @@
 import CharacterLength from "./CharacterLength";
 import CharacterType from "./CharacterType";
 import PasswordStrength from "./PasswordStrength";
+import GenerateButton from "./GenerateButton";
 
 const Config = () => {
     return (
@@ -8,6 +9,7 @@ const Config = () => {
             <CharacterLength />
             <CharacterType />
             <PasswordStrength />
+            <GenerateButton />
         </div>
     );
 };
