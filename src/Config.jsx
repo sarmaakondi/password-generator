@@ -1,9 +1,11 @@
 import CharacterLength from "./CharacterLength";
+import CharacterType from "./CharacterType";
 
 const Config = () => {
     return (
-        <div className="w-[34rem] flex items-center justify-between bg-componentBg px-8 py-5">
+        <div className="w-[34rem] bg-componentBg flex flex-col">
             <CharacterLength />
+            <CharacterType />
         </div>
     );
 };
