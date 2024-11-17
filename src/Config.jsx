@@ -1,9 +1,7 @@
+import CharacterLength from "./CharacterLength";
+
 const Config = () => {
-    return (
-        <div>
-            <h1>Config</h1>
-        </div>
-    );
+    return <CharacterLength />;
 };
 
 export default Config;
