@@ -3,7 +3,7 @@ const CharacterType = () => {
         <div className="flex flex-col gap-5 px-8 py-5 text-lg text-textColor">
             <div className="flex items-center gap-6">
                 <input
-                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen"
+                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen checked:border-0"
                     type="checkbox"
                     name="uppercase"
                     id="uppercase"
@@ -12,7 +12,7 @@ const CharacterType = () => {
             </div>
             <div className="flex items-center gap-6">
                 <input
-                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen"
+                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen checked:border-0"
                     type="checkbox"
                     name="lowercase"
                     id="lowercase"
@@ -21,7 +21,7 @@ const CharacterType = () => {
             </div>
             <div className="flex items-center gap-6">
                 <input
-                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen"
+                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen checked:border-0"
                     type="checkbox"
                     name="numbers"
                     id="numbers"
@@ -30,7 +30,7 @@ const CharacterType = () => {
             </div>
             <div className="flex items-center gap-6">
                 <input
-                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen"
+                    className="h-6 w-6 appearance-none border-2 border-textColor checked:bg-customGreen checked:border-0"
                     type="checkbox"
                     name="symbols"
                     id="symbols"
